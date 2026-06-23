@@ -17,10 +17,10 @@ if (totalPrice > 1000  || isMember ){
 
 const netPrice: number = totalPrice - discount;
 
-    console.log("------------------------------");
-    console.log("สินค้าของคุณคือ ${productName} (จำนวน ${quantity} ชิ้น)");
-    console.log("ราคาต่อหน่วยคือ ${pricePerUnit} บาท");
-    console.log("ราคารวมทั้งหมด ${totalPrice} บาท");
-    console.log("ระบุว่าได้รับส่วนลดหรือไม่ ${hasDiscount}");
-    console.log("ราคาสุทธิหลังหักส่วนลดคือ ${netPrice} บาท");
-    console.log("------------------------------");
+console.log(`------------------------------`);
+console.log(`สินค้าของคุณคือ ${productName} (จำนวน ${quantity} ชิ้น)`);
+console.log(`ราคาต่อหน่วยคือ ${pricePerUnit} บาท`);
+console.log(`ราคารวมทั้งหมด ${totalPrice} บาท`);
+console.log(`ระบุว่าได้รับส่วนลดหรือไม่ ${hasDiscount ? "ได้รับส่วนลด 10%" : "ไม่ได้รับส่วนลด"}`);
+console.log(`ราคาสุทธิหลังหักส่วนลดคือ ${netPrice} บาท`);
+console.log(`------------------------------`);
