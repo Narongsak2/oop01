@@ -1,10 +1,11 @@
+export{};
 let fname: string = "Narongsak";
 let lname: string = "Sengsay";
 let course: string[] = ["Database","Mawin","Web"];
 let mark: number[]  = [80,76,65];
 let pass: boolean = true;
 
-console.log("Hello %s %s",fname,lname,);
+console.log("Hello %s %s",fname,lname);
 console.log("ลงทะเบียนเรียนวิชา",course);
 console.log("ได้คะแนน",mark);
 console.log("คุณสอบผ่าน",pass);
